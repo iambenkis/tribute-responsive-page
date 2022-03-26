@@ -1,0 +1,28 @@
+
+@media (max-width:620px){
+    #timeline ul li {
+        margin: .5rem 0;
+    }
+    
+    
+    #timeline p{
+        margin: 1rem 0;
+        text-align: justify;
+        width: 95%;
+    }
+    
+    #tribute-info p{
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+#timeline ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;  
+    width: 95%;
+    margin-bottom: 1rem;
+}
+
+}
