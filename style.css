@@ -30,13 +30,86 @@ header p{
     flex-direction: column;
     align-items: center;
     margin: 1rem 0;
+    padding: 5% 5% 0 5%;
 }
 
 #image{
-    width: 70%;
+    width: 100%;
     height: auto; 
+    
 }
 
 #img-div p{
     margin: 1rem 0;
+    text-align: center;
+    color: #777;
+}
+
+#timeline{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+    
+#timeline h3{
+    margin-bottom: 2rem;
+}
+
+#timeline ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;  
+    
+    margin-bottom: 1rem;
+}
+
+
+@media (min-width:621px){
+    #timeline ul li {
+        margin: .5rem 0;
+    }
+    
+    
+    #timeline p{
+        margin: 1rem 0;
+        text-align: justify;
+    }
+    
+    #tribute-info p{
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width:620px){
+    #timeline ul li {
+        margin: .5rem 0;
+    }
+    
+    
+    #timeline p{
+        margin: 1rem 0;
+        text-align: justify;
+    }
+    
+    #tribute-info p{
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+#timeline ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;  
+    width: 95%;
+    margin-bottom: 1rem;
+}
+
 }
