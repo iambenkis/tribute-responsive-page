@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#main{
+    background-color: rgb(197, 197, 197);
+    padding: 2rem 1rem;
+    margin: 2rem 1rem;
+    border-radius: 5px; 
+}
+
+header{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+header h1{
+    font-size: 3rem;
+}
+
+header p{
+    margin-top: 1rem;
+}
+
+#img-div{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+#image{
+    width: 70%;
+    height: auto; 
+}
+
+#img-div p{
+    margin: 1rem 0;
+}
