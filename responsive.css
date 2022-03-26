@@ -1,8 +1,13 @@
 
 @media (max-width:620px){
+    header h1{
+        font-size: 1.5rem;
+    }
     #img-div{ 
         padding: 5% 5% 0 5%;
+
     }
+
 
     #timeline ul li {
         margin: .5rem 0;
